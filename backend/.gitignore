@@ -1,0 +1,89 @@
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.pyd
+*.sqlite3
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Django / Flask / FastAPI (common patterns)
+*.log
+instance/
+*.db
+*.sqlite3
+staticfiles/
+media/
+
+# Cache
+.cache/
+pytest_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# --------------------------
+# Environment & Secrets
+# --------------------------
+.env
+*.env
+.env.*
+.envrc
+secrets.json
+config.json
+
+# --------------------------
+# PostgreSQL
+# --------------------------
+# PG dump files
+*.sql
+*.dump
+*.backup
+
+# Local dev data folders
+pgdata/
+db_data/
+
+# --------------------------
+# Editors / IDEs
+# --------------------------
+# VSCode
+.vscode/
+.history/
+
+# JetBrains / PyCharm
+.idea/
+*.iml
+
+# --------------------------
+# OS Files
+# --------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# Misc
+# --------------------------
+logs/
+node_modules/
